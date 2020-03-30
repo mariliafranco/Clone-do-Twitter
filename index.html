@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter Clone</title>
+
+
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css'>
+
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-toggleable-md fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse container">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="octicon octicon-home" aria-hidden="true"></i> Home <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-zap"></i> Moments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-bell"></i> Notifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="octicon octicon-inbox"></i> Messages</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="main-container">
+
+    <div class="row profile-background">
+      <div class="container">
+
+        <div class="avatar-container">
+          <div class="avatar">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar profile-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+          </div>
+          <div class="col-6">
+            <ul>
+              <li class="profile-stats-item-active">
+                <a>
+                  <span class="profile-stats-item profile-stats-item-label">Tweets</span>
+                  <span class="profile-stats-item profile-stats-item-number" id="tweets">51</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="profile-stats-item profile-stats-item-label">Following</span>
+                  <span class="profile-stats-item profile-stats-item-number" id="following">420</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="profile-stats-item profile-stats-item-label">Followers</span>
+                  <span class="profile-stats-item profile-stats-item-number" id="followers">583</span>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <span class="profile-stats-item profile-stats-item-label">Likes</span>
+                  <span class="profile-stats-item profile-stats-item-number" id="likes">241</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main-content">
+      <div class="row">
+        <div class="col profile-col">
+
+          <div class="profile-header">
+
+            <h3 class="profile-fullname" id="nome"><a><a></h3>
+            <h2 class="profile-element" id="username"><a></a></h2> <!-- id-->
+            <a class="profile-element profile-website" href="https://www.linkedin.com/in/marília-franco-de-andrade/"><i
+                class="octicon octicon-link"></i>&nbsp;https://www.linkedin.com/marília-franco-de-andrade/ </a><i
+              class="octicon octicon-location" id="local"></i>&nbsp;</a>
+            <h2 class="profile-element"><i class="octicon octicon-calendar" id="primeirologin"></i></h2>
+            <button class="btn btn-search-bar tweet-to-btn">Tweet to Marília </button>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <ol class="tweet-list" id="listapostagens">
+
+          </ol>
+
+        </div>
+
+        <div class="col right-col">
+          <div class="content-panel">
+            <div class="panel-header">
+              <h4> Quem seguir </h4>
+            </div>
+
+            <div class="panel-content">
+
+              <ol class="tweet-list" id="listafollow"> </ol>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+    <script src="/Follow/follow.js"> </script>
+    <script src="/Follow/cardfollow.js"></script>
+    <script src="/Follow/appfollow.js"></script>
+    <script src="/Tweets/tweets.js"></script>
+    <script src="/Tweets/cardtweets.js"></script>
+    <script src="/Tweets/apptweets.js"></script>
+    <script src="/User/usuario.js"></script>
+    <script src="/User/cardusuario.js"></script>
+    <script src="/User/appusuario.js"></script>
+
+</body>
+
+</html>

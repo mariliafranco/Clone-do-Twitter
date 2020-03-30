@@ -1,0 +1,41 @@
+[
+  {
+    "retweet": "",
+    "nome": "Marília Franco de Andrade",
+    "usuario": "@mariliaandrad",
+    "data": "Mar 10",
+    "mensagem": "A Trilha de Formação JavaScript/React do Women Can Code 2020 começou com tudo! O primeiro desafio prático foi o desenvolvimento de um clone do Twitter consumindo API local: que demais!",
+    "link":"", 
+    "comentarios": 20,
+    "compartilhamentos": 7,
+    "likes": 55,
+    "foto": "../Imagens/Profile.jpg",
+    "palavrachave": "#WomenCanCode #JavaScript #React"
+  },
+  {
+    "retweet": "Marília Franco de Andrade retweetou",
+    "nome": "Venturus",
+    "usuario": "@Venturus_br",
+    "data": "Mar 02",
+    "mensagem": "E mais uma conquista dos nossos Ventureiros! Agora somos desenvolvedores capacitados pela Amazon para o desenvolvimento de Skills para a assistente virtual Alexa. Quer saber mais e, quem sabe, desenvolver sua própria Skill? Vem falar com quem entende do assunto: ",
+    "link": "https://www.venturus.org.br/solucoes/assistentes-virtuais/",
+    "comentarios": 27,
+    "compartilhamentos": 30,
+    "likes": 98,
+    "foto": "../Imagens/venturusprofile.jpg",
+    "palavrachave": "#Ventureiros #Amazon #Alexa"
+  },
+  {
+    "retweet": "Marília Franco de Andrade retweetou",
+    "nome": "Share RH",
+    "usuario": "@share_rh",
+    "data": "Feb 21",
+    "mensagem": "O @venturus_br está mais uma vez fazendo parte do #WomenCanCode e oferecendo oportunidades de qualificação em tecnologia para mulheres, com chances reais de contratação! Se você quer alavancar sua carreira e atuar em uma empresa que torna a transformação digital possível em diversos segmentos, inscreva-se para a trilha de formação gratuita em #React.js através do link:",
+    "link": "https://linktr.ee/share_rh",
+    "comentarios": 32,
+    "compartilhamentos": 47,
+    "likes": 87,
+    "foto": "../Imagens/shareprofile.png",
+    "palavrachave": "#Recrutamento #Capacitação"
+  }
+]
